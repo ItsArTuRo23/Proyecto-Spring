@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <div th:replace="layout::header"></div>
+
+
+    <section id="inventario" class="container mt-5 ">
+        <div class="container">
+            <h1 class="mt-4">Inventario de Ingredientes</h1>
+            <div class="col-md-6">
+                <a href="formulario.html" class="btn btn-primary mt-3">Modificar Inventario</a>
+            </div>
+            <!-- Agrega una tabla para listar los ingredientes -->
+            <table class="table mt-4  table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Ingrediente</th>
+                        <th>Cantidad en Existencia</th>
+                        <th>Costo</th>
+                        <th>Fecha de Adquisición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se mostrarán los ingredientes existentes -->
+                    <tr>
+                        <td>Lechuga romana fresca</td>
+                        <td>10 unidades</td>
+                        <td>$1.50 por unidad</td>
+                        <td>01/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Tomates cherry</td>
+                        <td>15 unidades</td>
+                        <td>$$7.50 por unidad</td>
+                        <td>02/09/2023</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td>Pepinos en rodajas finas</td>
+                        <td>8 unidades</td>
+                        <td>$5.00 por unidad</td>
+                        <td>02/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Cebolla roja en rodajas finas</td>
+                        <td>4 unidades</td>
+                        <td>$8.00 por unidad</td>
+                        <td>02/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Aceitunas negras (sin hueso)</td>
+                        <td>15 unidades</td>
+                        <td>$3.25 por unidad</td>
+                        <td>02/09/2023 </td>
+                     </tr> 
+                     
+                     <tr>
+                        <td>Manzanas (variedades dulces)</td>
+                        <td>5 unidades</td>
+                        <td>$2.00 por unidad</td>
+                        <td>01/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Tallos de apio</td>
+                        <td>4 tallos</td>
+                        <td>$1.25 por tallo</td>
+                        <td>02/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Nueces</td>
+                        <td>1/2 taza</td>
+                        <td>$5.00 por taza</td>
+                        <td>02/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Uvas rojas</td>
+                        <td>1/2 taza</td>
+                        <td>$3.50 por taza</td>
+                        <td>03/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Mayonesa</td>
+                        <td>1/2 taza</td>
+                        <td>$1.00 por taza</td>
+                        <td>04/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Crema Agria</td>
+                        <td>1/2 taza</td>
+                        <td>$1.20 por taza</td>
+                        <td>05/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Jugo de Limón</td>
+                        <td>El jugo de 2 limones</td>
+                        <td>$0.75 por limón</td>
+                        <td>06/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Azúcar (opcional)</td>
+                        <td>2 cucharadas</td>
+                        <td>$0.25 por cucharada</td>
+                        <td>07/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Sal y pimienta</td>
+                        <td>A gusto</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                    
+                   
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+    
+
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div th:replace ="layout :: footer"></div>
+
+
+
+        
+
+
+            
+        
+
+    
+        
+    
+    
+</body>
+</html>
