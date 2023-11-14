@@ -3,6 +3,9 @@ Integrantes:
 Arturo Badillo Ramírez
 Angel Castro Reyes
 
-Instrucciones de Ejecución para iniciar el contenedor debemos correr el siguiente comando en nuestra terminal estando ubicados en nuestra carpeta del proyecto:
-docker-compose up -d
+Para ejecutar:
+-Debes de estar al nivel del archivo Docker-compose
+-Despues de asegurarte que estas ahi, ejecuta el comando: Docker-compose up -d
+- Ejecuta el comando cd demo/src/main/com/example
+- Estando en esa localización ejecute el comando: mvn spring-boot:run
 
