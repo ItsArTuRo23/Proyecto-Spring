@@ -1,2 +1,2 @@
 # Proyecto-Spring 
-por error todo el poryecto esta en la rama master por fsvor de cambiar 
+El proyecto se encuentra en la rama Master ahí se encunetra el código completo.
